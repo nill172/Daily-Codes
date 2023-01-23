@@ -1,0 +1,25 @@
+{
+    "files.associations": {
+        "STACK.C": "cpp",
+        "*.tcc": "c",
+        "cstdlib": "c",
+        "memory": "c",
+        "sstream": "c",
+        "random": "c"
+    },
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "username": "nilan",
+            "database": "localhost",
+            "name": "localhost",
+            "password": "nill"
+        }
+    ]
+}

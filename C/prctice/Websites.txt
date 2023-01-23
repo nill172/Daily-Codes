@@ -1,0 +1,2 @@
+https://www.javatpoint.com/escape-sequence-in-c
+https://www.geeksforgeeks.org/data-types-in-c/

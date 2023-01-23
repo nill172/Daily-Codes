@@ -1,0 +1,1 @@
+display(exe->a);
