@@ -4,7 +4,8 @@ i=2
 while [ $i -le $n ]; do
 	j=2
 	count=0
-	while [ $j -lt $i ]; do
+	while [ $j -lt $i ]; 
+	do
 		if [ $(($i % $j)) -eq 0 ]; 
 		then
 			count=$(($count + 1))
