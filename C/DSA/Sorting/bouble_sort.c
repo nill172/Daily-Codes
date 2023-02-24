@@ -11,7 +11,7 @@ void display(int *a, int n){
 }
 
 int sort(int *a, int n){
-    while(n > 1){
+    while(n > 1){       //* n is the size of array
         int i;
         for(i=0; i<n-1; i++){
             if(a[i]>a[i+1]){

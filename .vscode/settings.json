@@ -21,5 +21,6 @@
             "name": "localhost",
             "password": "nill"
         }
-    ]
+    ],
+    "C_Cpp.errorSquiggles": "disabled"
 }
