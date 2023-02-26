@@ -25,7 +25,7 @@ int main(){
 
     //We can set the variable here also.
     struct classmate c;
-
+    
     //And we can get the value of the variable like this
     printf("\nEnter the name of classmate: ");
     gets(c.name);
