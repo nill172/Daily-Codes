@@ -1,0 +1,13 @@
+# C Programming syllabus for JECA
+- Variables and Data types
+- IO Operations
+- Operators and Expressions
+- Control Flow statements
+- Functions
+- Array
+- Pointers
+- String Handling
+- Structures and Unions
+- Files Handling
+- Pre-Processor Directives
+- Command Line Arguments

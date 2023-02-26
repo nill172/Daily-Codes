@@ -1,0 +1,32 @@
+# OOP sylabus for JECA
+- Data Types
+- If / Else If / Else-Loops
+- Function
+- Switch case
+- Pointer
+- Structure
+- Array
+- String
+- Function Overloading
+- Function templates
+- SCOPE of variable
+- Type aliases (typedef / using)
+- Unions
+- Enumerated types (enum)
+- Class
+- Constructors
+- Overloading Constructors
+- Member initialization in constructors
+- Pointers to classes
+- Overloading Operators
+- Keyword ‘this’
+- Static Members
+- Const Member Functions
+- Class Templates
+- Template Specialization
+- Namespace
+- Friendship (Friend Functions & Friend Classes)
+- Inheritance
+- Polymorphism
+- Virtual Members
+- Abstract base class. 

@@ -1,0 +1,13 @@
+# DSA Syllabus for JECA
+- Searching
+- Sorting
+    - Bouble sort
+    - Insirtion sort
+    - Selection sort
+    - Quick sort
+    - Marge sort
+- Stack
+- Queue
+- Linked List
+- Tree
+- Graph
