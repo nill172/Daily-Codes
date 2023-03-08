@@ -19,12 +19,18 @@ public:
         cout << "Enter the roll: ";
         cin >> roll;
     }
-}
+    student(student &obj){  //* This is a copy constractor
+        roll = obj.roll;    //! Even if this copy constractor is not created, the cpp run this as default
+        name = obj.name;
+    }
+};
 int main(){
-    student a(nill);
+    student a("nill");
     student b(2);
-    student c(nilu);
+    student c("nilu");
+    student d(b);
     a.display();
     b.display();
     c.display();
+    d.display();
 }
