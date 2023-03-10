@@ -21,7 +21,7 @@ public:
 };
 void exam :: setmarks(int n){
     totalsubject = n;
-    marks = new int(n);
+    marks = new int[n];
     int i;
     for(i=0; i<n; i++){
         cout<<"Marks of subject no."<<i+1<<": ";

@@ -22,14 +22,12 @@ void student :: show(){
     cout<<setw(3)<<roll<<setw(10)<<name<<setw(5)<<marks<<endl;
 }
 void delet(student* edit){
-    int i, r;
+    int i = 0, r;
     cout<<"Enter the roll number ";
     cin>>r;
     while(r != edit[i].roll){
         i++;
     }
-    delete edit[i];
-    edit[i] = nullptr;
     for(i; i<edit[i].count; i++){
         edit[i] = edit[i+1];
     }
@@ -38,10 +36,7 @@ void delet(student* edit){
 
 int main(){
     int i, n = 3;
-    student *class10;
-    for(i=0; i<n; i++){
-        class10[i] = new student(i);
-    }
+    student *class10 = new student[n];
     for(i=0; i<n; i++){
         class10[i].entry();
     }
@@ -49,6 +44,9 @@ int main(){
         class10[i].show();
     }
     delet(class10);
+    for(i=0; i<n; i++){
+        class10[i].show();
+    }
     
 }
 
