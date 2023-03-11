@@ -14,6 +14,6 @@ It's not any project or something. I'm just updating my daily work and practice 
 
 [![Python](https://img.shields.io/badge/Python-blue?&logo=python&logoColor=white)](https://github.com/nill172/Daily-Codes/tree/main/Python/BSc%20old%20python%20files)
 
-[![Shell_Scripts](https://img.shields.io/badge/Shell_Scripts-black?&logo=gnu-bash&logoColor=white)](https://github.com/nill172/Daily-Codes/tree/main/sh)
+[![Shell_Scripts](https://img.shields.io/badge/Shell_Scripts-black?&logo=gnu-bash&logoColor=white)](https://github.com/nill172/Daily-Codes/tree/main/Shell%20Script)
 
 [![HTML](https://img.shields.io/badge/HTML-E34F26?&logo=html5&logoColor=white)](https://github.com/nill172/Daily-Codes/tree/main/HTML)
