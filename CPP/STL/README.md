@@ -1,6 +1,6 @@
 # Standard Tag Library(STL)
 - ## Containers
-    ```http
+    ```https
     https://cplusplus.com/reference/stl/
     ```
     - ### Sequence Containers
@@ -17,7 +17,7 @@
         - Map
         - Multimap
 - ## Algorithms
-    ```http
+    ```https
     https://cplusplus.com/reference/algorithm/
     ```
     - ### Non-modifying sequence oporations
@@ -125,7 +125,7 @@
         | `next_permutation` |	Transform range to next permutation (function template) |
         | `prev_permutation` |	Transform range to previous permutation (function template) |
 - ## Iterators
-    ```http
+    ```https
     https://cplusplus.com/reference/iterator/
     ```
     - ### Functions
@@ -142,7 +142,7 @@
             | `back_inserter` |	Construct back insert iterator (function template) |
             | :----------: | :--------------------------------------------- |
             | `front_inserter` |	Constructs front insert iterator (function template) |
-            | `inserter	Construct` | insert iterator (function template) |
+            | `inserter` |	Construct insert iterator (function template) |
             | `make_move_iterator` |	Construct move iterator (function template) |
     - ### Classes
         | `iterator` |	Iterator base class (class template) |
