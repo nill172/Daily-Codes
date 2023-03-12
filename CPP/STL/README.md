@@ -1,12 +1,69 @@
 # Standard Tag Library(STL)
 - ## Containers
-    ```link
+    ```
     https://cplusplus.com/reference/stl/
     ```
     - ### Sequence Containers
+        - Array
         - Vactor
-        - List
         - Deque
+        - Forward_list
+        - List
+
+        | Headers           |               | `<array>` | `<vector>`    | `<deque>`      | `<forward_list>`          | `<list>`       |
+        | ---               | ---           | ---       | ---           | ---            | ---                       |         ---    | 
+        |Members            |               | array     |  vector       | deque          | forward_list              | list           |
+        |                   |               |           |               |                |                           |                |        
+        |                   | Constructor   | implicit  | vector        | deque          | forward_list              | list           |
+        |                   | Deconstructor | implicit  | ~vector       | ~deque         | ~forward_list             | ~list          |
+        |                   | opertor=      | opertor=  | opertor=      | opertor=       | opertor=                  | opertor=       |
+        |                   |               |           |               |                |                           |                |        
+        |                   | begin         | begin     | begin         | begin          | begin<br/>before_ begin   | begin          |
+        | **Iterators**     | end           | end       | end           | end            | end                       | end            |
+        |                   |  rbegin       | rbegin    | rbegin        | rbegin         |                           | rbegin         |
+        |                   | rend          | rend      | rend          | rend           |                           | rend           |
+        |                   |               |           |               |                |                           |                |  
+        |                   | cbegin        | cbegin    | cbegin        | cbegin         | cbegin<br/>cbefore_ begin | cbegin         |
+        |**Constiterators** | cend          | cend      | cend          | cend           | cend                      | cend           |
+        |                   |  crbegin      | crbegin   | crbegin       | crbegin        |                           | crbegin        |
+        |                   | crend         | crend     | crend         | crend          |                           | crend          |
+        |                   |               |           |               |                |                           |                |  
+        |                   | size          | size      | size          | size           |                           | size           |
+        |                   | max_size      | max_size  | max_size      | max_size       |  max_size                 | max_size       |
+        |                   | empty         | empty     | empty         | empty          | empty                     | empty          |
+        |**Capacity**       | resize        |           | resize        | resize         |     resize                | resize         |
+        |                   | shrink_to_fit |           | shrink_to_fit | shrink_to_fit  |                           |                |
+        |                   | capacity      |           |               | capacity       |                           |                |
+        |                   | reserve       |           |               | reserve        |                           |                |
+        |                   |               |           |               |                |                           |                |  
+        |                   |  front        |front      |front          |front           |front                      |front           |  
+        |                   |  back         |back       |back           |back            |                           |back            |  
+        |**Element access** |  operator[]   |operator[] |porator[]      |operator[]      |                           |                |  
+        |                   |  at           |at         |at             |at              |                           |                |  
+        |                   |               |           |               |                |                           |                |  
+        |                   |  assign       |           |assign         |assign          |assign                     |assign          |  
+        |                   |  emplace      |           |emplace        |emplace         |emplace_after              |emplace         |  
+        |                   |  insert       |           |insert         |insert          |insert_ after              |insert          |  
+        |                   |  erase        |           |erase          |erase           |erase_ after               |erase           |  
+        |                   | emplace_back  |           | emplace_back  | emplace_back   |                           | emplace_back   |  
+        | **Modifiers**     | push_back     |           | push_back     | push_back      |                           | push_back      |  
+        |                   | pop_back      |           | pop_back      | pop_back       |                           | pop_back       |  
+        |                   | emplace_front |           |               | emplace_front  | emplace_front             | emplace_front  |  
+        |                   | push_front    |           |               | push_front     | push_front                | push_front     |  
+        |                   | pop_front     |           |               | pop_front      | pop_front                 | pop_front      |  
+        |                   | clear         |           | clear         | clear          | clear                     | clear          |  
+        |                   | swap          | swap      | swap          | swap           | swap                      | swap           |  
+        |                   |               |           |               |                |                           |                |
+        |                   | splice        |           |               |                | splice_after              | splice         |   
+        |                   | remove        |           |               |                | remove                    | remove         |  
+        |                   | remove_if     |           |               |                | remove_if                 | remove-if      |  
+        |**List Oporations**| unique        |           |               |                | unique                    | unique         |  
+        |                   | merge         |           |               |                | merge                     | merge          |  
+        |                   | sort          |           |               |                | sort                      | sort           |  
+        |                   | reverse       |           |               |                | reverse                   | reverse        |
+        |                   |               |           |               |                |                           |                |
+        | **Observers**     | get_allocation|           | get_allocation| get_allocation | get_allocation            | get_allocation |  
+        |                   | data          | data      | data          |                |                           |                |
     - ### Derived Containers
         - Stack
         - Queue
@@ -16,6 +73,48 @@
         - Multiset
         - Map
         - Multimap
+        
+        | **Headers**         |                   | `<set>`           | `<set>`           | `<map>`           | `<map>`           |
+        | ---------------     | ----------------- | -----------       | ------------      | -----------       | -----------       |
+        | **Members**         |                   | set               | multiset          | map               | multimap          |
+        |                     |                   |                   |                   |                   |                   |
+        |                     | Constructor       | set               | multiset          | map               | multimap          |
+        |                     | destructor        | ~set              | ~multiset         | ~map              | ~multimap         |
+        |                     | assignment        | operator=         | operator=         | operator=         | operator=         |
+        |                     |                   |                   |                   |                   |                   |
+        |                     | begin             | begin             | begin             | begin             | begin             |
+        | **Iterators**       | end               | end               | end               | end               | end               |
+        |                     | rbegin            | rbegin            | rbegin            | rbegin            | rbegin            |
+        |                     | rend              | rend              | rend              | rend              | rend              |
+        |                     |                   |                   |                   |                   |                   |
+        |                     | cbegin            | cbegin            | cbegin            | cbegin            | cbegin            |
+        | **Const Iterators** | cend              | cend              | cend              | cend              | cend              |
+        |                     | crbegin           | crbegin           | crbegin           | crbegin           | crbegin           |
+        |                     | crend             | crend             | crend             | crend             | crend             |
+        |                     |                   |                   |                   |                   |                   |
+        |                     | size              | size              | size              | size              | size              |
+        | **Capacity**        | maxz_size         | maxz_size         | maxz_size         | maxz_size         | maxz_size         |
+        |                     | empty             | empty             | empty             | empty             | empty             |
+        |                     |                   |                   |                   |                   |                   |
+        | **Element Access**  | at                |                   |                   | at                |                   |
+        |                     | operator[]        |                   |                   | operator[]        |                   |
+        |                     |                   |                   |                   |                   |                   |
+        |                     | emplace           | emplace           | emplace           | emplace           | emplace           |
+        |                     | emplace_hint      | emplace_hint      | emplace_hint      | emplace_hint      | emplace_hint      |
+        | **Modifiers**       | insert            | insert            | insert            | insert            | insert            |
+        |                     | erase             | erase             | erase             | erase             | erase             |
+        |                     | clear             | clear             | clear             | clear             | clear             |
+        |                     | swap              | swap              | swap              | swap              | swap              |
+        |                     |                   |                   |                   |                   |                   |
+        |                     | count             | count             | count             | count             | count             |
+        |                     | find              | find              | find              | find              | find              |
+        | **Operations**     | equal_range       | equal_range       | equal_range       | equal_range       | equal_range       |
+        |                     | lower_bound       | lower_bound       | lower_bound       | lower_bound       | lower_bound       |
+        |                     | upper_bound       | upper_bound       | upper_bound       | upper_bound       | upper_bound       |
+        |                     |                   |                   |                   |                   |                   |
+        |                     | get_allowcator    | get_allowcator    | get_allowcator    | get_allowcator    | get_allowcator    |
+        | **Observers**       | key_comp          | key_comp          | key_comp          | key_comp          | key_comp          |
+        |                     | value_comp        | value_comp        | value_comp        | value_comp        | value_comp        |
 - ## Algorithms
     ```https
     https://cplusplus.com/reference/algorithm/
