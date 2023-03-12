@@ -1,18 +1,15 @@
 # Standard Tag Library(STL)
-- ## Containers
-    ```
-    https://cplusplus.com/reference/stl/
-    ```
+- ## [Containers](https://cplusplus.com/reference/stl/)
     - ### Sequence Containers
-        - Array
-        - Vactor
-        - Deque
-        - Forward_list
-        - List
+        - [Array](https://cplusplus.com/reference/array/array/)
+        - [Vactor](https://cplusplus.com/reference/vector/vector/)
+        - [Deque](https://cplusplus.com/reference/deque/deque/)
+        - [Forward_list](https://cplusplus.com/reference/forward_list/forward_list/)
+        - [List](https://cplusplus.com/reference/list/list/)
 
-        | Headers           |               | `<array>` | `<vector>`    | `<deque>`      | `<forward_list>`          | `<list>`       |
+        | **Headers**       |               | `<array>` | `<vector>`    | `<deque>`      | `<forward_list>`          | `<list>`       |
         | ---               | ---           | ---       | ---           | ---            | ---                       |         ---    | 
-        |Members            |               | array     |  vector       | deque          | forward_list              | list           |
+        | **Members**       |               | array     |  vector       | deque          | forward_list              | list           |
         |                   |               |           |               |                |                           |                |        
         |                   | Constructor   | implicit  | vector        | deque          | forward_list              | list           |
         |                   | Deconstructor | implicit  | ~vector       | ~deque         | ~forward_list             | ~list          |
@@ -65,14 +62,14 @@
         | **Observers**     | get_allocation|           | get_allocation| get_allocation | get_allocation            | get_allocation |  
         |                   | data          | data      | data          |                |                           |                |
     - ### Derived Containers
-        - Stack
-        - Queue
-        - Priority Queue
+        - [Stack](https://cplusplus.com/reference/stack/stack/)
+        - [Queue](https://cplusplus.com/reference/queue/queue/)
+        - [Priority Queue](https://cplusplus.com/reference/queue/priority_queue/)
     - ### Containers
-        - Set
-        - Multiset
-        - Map
-        - Multimap
+        - [Set](https://cplusplus.com/reference/set/set/)
+        - [Multiset](https://cplusplus.com/reference/set/multiset/)
+        - [Map](https://cplusplus.com/reference/map/map/)
+        - [Multimap](https://cplusplus.com/reference/map/multimap/)
 
         | **Headers**         |                   | `<set>`           | `<set>`           | `<map>`           | `<map>`           |
         | ---------------     | ----------------- | -----------       | ------------      | -----------       | -----------       |
@@ -115,10 +112,7 @@
         |                     | get_allowcator    | get_allowcator    | get_allowcator    | get_allowcator    | get_allowcator    |
         | **Observers**       | key_comp          | key_comp          | key_comp          | key_comp          | key_comp          |
         |                     | value_comp        | value_comp        | value_comp        | value_comp        | value_comp        |
-- ## Algorithms
-    ```https
-    https://cplusplus.com/reference/algorithm/
-    ```
+- ## [Algorithms](https://cplusplus.com/reference/algorithm/)
     - ### Non-modifying sequence oporations
         | `all_of`	  | Test condition on all elements in range (function template) |
         | :----------: | :----------------------------------- |
@@ -223,10 +217,7 @@
         | :----------: | :--------------------------------------------- |
         | `next_permutation` |	Transform range to next permutation (function template) |
         | `prev_permutation` |	Transform range to previous permutation (function template) |
-- ## Iterators
-    ```https
-    https://cplusplus.com/reference/iterator/
-    ```
+- ## [Iterators](https://cplusplus.com/reference/iterator/)
     - ### Functions
         - ### Iterator operations
             | `advance` |	Advance iterator (function template) |
