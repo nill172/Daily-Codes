@@ -24,7 +24,7 @@
         |                   | rend          | rend      | rend          | rend           |                           | rend           |
         |                   |               |           |               |                |                           |                |  
         |                   | cbegin        | cbegin    | cbegin        | cbegin         | cbegin<br/>cbefore_ begin | cbegin         |
-        |**Constiterators** | cend          | cend      | cend          | cend           | cend                      | cend           |
+        |**Const Iterators** | cend          | cend      | cend          | cend           | cend                      | cend           |
         |                   |  crbegin      | crbegin   | crbegin       | crbegin        |                           | crbegin        |
         |                   | crend         | crend     | crend         | crend          |                           | crend          |
         |                   |               |           |               |                |                           |                |  
@@ -73,7 +73,7 @@
         - Multiset
         - Map
         - Multimap
-        
+
         | **Headers**         |                   | `<set>`           | `<set>`           | `<map>`           | `<map>`           |
         | ---------------     | ----------------- | -----------       | ------------      | -----------       | -----------       |
         | **Members**         |                   | set               | multiset          | map               | multimap          |
